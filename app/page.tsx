@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SectionHeader } from "@/components/SectionHeader";
+import GiscusComments from "@/components/GiscusComments";
 import { TemplateCard } from "@/components/TemplateCard";
 import { categories, templates } from "@/data/templates";
 import { categoryToSlug } from "@/lib/templates";
@@ -262,6 +263,24 @@ export default function HomePage() {
               Download Free Pack
             </a>
           </form>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 pb-20 pt-16 sm:px-6 lg:px-8">
+        <div className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm sm:p-8">
+          <div className="max-w-3xl">
+            <p className="text-sm font-bold uppercase tracking-[0.2em] text-indigo-600">
+              Feedback & Suggestions
+            </p>
+            <h2 className="mt-2 text-2xl font-bold text-slate-950 sm:text-3xl">
+              Share Your Thoughts
+            </h2>
+            <p className="mt-3 text-lg leading-8 text-slate-700">
+              Questions, ideas, or improvements? Leave a comment below and help us keep refining the prompt library.
+            </p>
+          </div>
+
+          <GiscusComments />
         </div>
       </section>
     </main>
