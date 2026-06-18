@@ -280,9 +280,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Build a cinematic fragrance visual with reflective surfaces, soft mist, floral accents, and a high-fashion beauty finish.",
     referenceImages: [
-      categoryReferenceImage.Beauty,
       "/assets/templates/perfume-main.png",
-      categoryReferenceImage.Beauty
+      "/assets/templates/luxury-perfume-ad-1.svg",
+      "/assets/templates/luxury-perfume-ad-2.svg"
     ],
     midjourneyPrompt:
       "luxury perfume bottle on reflective dark surface, soft mist, sculptural floral accents, gold edge highlights, premium fragrance advertising, elegant beauty editorial mood --ar 4:5 --v 6",
@@ -475,7 +475,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "spa treatment ad prompt",
     shortDescription:
       "Create a serene spa-style campaign with wellness textures, soft stone surfaces, and polished self-care storytelling.",
-    referenceImages: assetTriplet("Beauty"),
+    referenceImages: [
+      "/assets/templates/spa-treatment-promo-1.svg",
+      "/assets/templates/spa-main.png",
+      "/assets/templates/spa-treatment-promo-2.svg"
+    ],
     midjourneyPrompt:
       "spa treatment product setup on soft stone surface, wellness textures, calm neutral palette, premium self-care advertising, airy light, polished beauty-wellness composition --ar 4:5 --v 6",
     runwayPrompt:
@@ -521,9 +525,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Design a creator-style beauty routine ad with authentic framing, product demo energy, and social-ready product storytelling.",
     referenceImages: [
-      categoryReferenceImage.Beauty,
-      "/assets/templates/cleanser-main.png",
-      categoryReferenceImage.Beauty
+      "/assets/templates/beauty-ugc-main.png",
+      "/assets/templates/beauty-ugc-routine-ad-1.svg",
+      "/assets/templates/beauty-ugc-routine-ad-2.svg"
     ],
     midjourneyPrompt:
       "beauty UGC routine setup, creator-style framing, clean bathroom counter, authentic product demo energy, natural daylight, social ad composition, clear beauty packaging focus --ar 9:16 --v 6",
@@ -569,7 +573,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "beauty before after ad prompt",
     shortDescription:
       "Create a result-led skincare visual with clear contrast cues, clean packaging, and a believable proof-oriented ad structure.",
-    referenceImages: assetTriplet("Beauty"),
+    referenceImages: [
+      "/assets/templates/before-after-skincare-ad-1.svg",
+      "/assets/templates/before-after-main.png",
+      "/assets/templates/before-after-skincare-ad-2.svg"
+    ],
     midjourneyPrompt:
       "before-and-after skincare product visual, clean split-proof composition, elegant beauty packaging, bright readable layout, result-led social ad styling, premium but credible skincare campaign --ar 4:5 --v 6",
     runwayPrompt:
@@ -615,9 +623,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Present multiple skincare products in a bundle-first hero layout with clear hierarchy, offer space, and polished beauty lighting.",
     referenceImages: [
-      categoryReferenceImage.Beauty,
-      "/assets/templates/luxury-serum-main.png",
-      categoryReferenceImage.Beauty
+      "/assets/templates/bundle-main.png",
+      "/assets/templates/skincare-bundle-offer-1.svg",
+      "/assets/templates/skincare-bundle-offer-2.svg"
     ],
     midjourneyPrompt:
       "skincare bundle arrangement with serum, cleanser, cream or lotion, premium beauty offer layout, clean label visibility, soft luxury lighting, bundle-first ecommerce composition --ar 4:5 --v 6",
@@ -762,9 +770,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Frame skincare packaging against a luminous skin-texture backdrop with peach-white glow, dewy highlights, and a bright high-key beauty finish.",
     referenceImages: [
-      categoryReferenceImage.Beauty,
-      "/assets/templates/glowing-skin-main.png",
-      categoryReferenceImage.Beauty
+      "/assets/templates/gift-beauty-main.png",
+      "/assets/templates/glowing-skin-product-commercial-1.svg",
+      "/assets/templates/glowing-skin-product-commercial-2.svg"
     ],
     midjourneyPrompt:
       "skincare jar and serum bottle against luminous skin texture backdrop, peach white high-key beauty studio, glossy dewy highlights, soft radiant finish, clean premium cosmetic campaign, product and skin glow balanced in one frame --ar 4:5 --v 6",
@@ -813,9 +821,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Present a premium coffee bag beside a ceramic cup, warm wood textures, and soft morning steam for a rich artisanal feel.",
     referenceImages: [
-      categoryReferenceImage.Food,
       "/assets/templates/coffee-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/coffee-brand-ad-1.svg",
+      "/assets/templates/coffee-brand-ad-2.svg"
     ],
     midjourneyPrompt:
       "premium coffee bag beside ceramic cup, warm wood surface, soft steam, restrained roasted beans, artisanal coffee branding, rich brown morning light, packaging readable and centered --ar 4:5 --v 6",
@@ -862,9 +870,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Show a creamy matcha pour with clean green contrast, cafe calm, and premium beverage storytelling.",
     referenceImages: [
-      categoryReferenceImage.Food,
       "/assets/templates/matcha-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/matcha-latte-commercial-1.svg",
+      "/assets/templates/matcha-latte-commercial-2.svg"
     ],
     midjourneyPrompt:
       "creamy matcha latte in clear glass, vivid green swirl, bamboo whisk, calm cafe light, premium beverage advertising, clean tabletop composition, fresh and modern drink branding --ar 4:5 --v 6",
@@ -911,9 +919,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Build an indulgent chocolate visual with glossy texture, precise packaging focus, and premium confectionery mood.",
     referenceImages: [
-      categoryReferenceImage.Food,
       "/assets/templates/chocolate-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/chocolate-bar-product-shot-1.svg",
+      "/assets/templates/chocolate-bar-product-shot-2.svg"
     ],
     midjourneyPrompt:
       "premium chocolate bar packaging with glossy chocolate pieces, cocoa detail, warm indulgent lighting, rich confectionery advertising, clean label readability, premium snack hero --ar 4:5 --v 6",
@@ -960,9 +968,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a clean snack promo with ingredients, bright daylight, and product-first packaging hierarchy.",
     referenceImages: [
-      categoryReferenceImage.Food,
       "/assets/templates/healthy-snack-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/healthy-snack-promo-1.svg",
+      "/assets/templates/healthy-snack-promo-2.svg"
     ],
     midjourneyPrompt:
       "healthy snack pouch with clean ingredient styling, nuts or fruit support, bright natural light, modern wellness packaging, premium snack advertising, product-first composition --ar 4:5 --v 6",
@@ -1009,9 +1017,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Design a restaurant reel with plating texture, warm dining light, and appetizing close-up rhythm for social performance.",
     referenceImages: [
-      categoryReferenceImage.Food,
       "/assets/templates/restaurant-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/restaurant-food-reel-1.svg",
+      "/assets/templates/restaurant-food-reel-2.svg"
     ],
     midjourneyPrompt:
       "signature restaurant dish in warm dining light, plating detail, sauce texture, appetizing social reel framing, cinematic close-up food advertising, premium restaurant storytelling --ar 9:16 --v 6",
@@ -1302,7 +1310,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "food UGC ad prompt",
     shortDescription:
       "Create a creator-style taste-test ad with authentic framing, product sampling, and social-native food storytelling.",
-    referenceImages: assetTriplet("Food"),
+    referenceImages: [
+      "/assets/templates/food-ugc-taste-test-1.svg",
+      "/assets/templates/food-ugc-main.png",
+      "/assets/templates/food-ugc-taste-test-2.svg"
+    ],
     midjourneyPrompt:
       "food UGC taste-test setup, creator-style framing, authentic snack or drink demo, natural daylight, social media ad composition, clear product visibility --ar 9:16 --v 6",
     runwayPrompt:
@@ -1347,7 +1359,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "TikTok recipe ad prompt",
     shortDescription:
       "Build a short-form recipe creative with satisfying prep moments, ingredient clarity, and fast vertical pacing.",
-    referenceImages: assetTriplet("Food"),
+    referenceImages: [
+      "/assets/templates/tiktok-recipe-ad-1.svg",
+      "/assets/templates/tiktok-recipe-main.png",
+      "/assets/templates/tiktok-recipe-ad-2.svg"
+    ],
     midjourneyPrompt:
       "vertical TikTok recipe ad, clean ingredient prep, satisfying food action, social-first framing, bright kitchen light, creator-native ad composition --ar 9:16 --v 6",
     runwayPrompt:
@@ -1393,9 +1409,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a high-contrast food sale frame with product appetite, strong offer space, and a clear promotional hierarchy.",
     referenceImages: [
-      categoryReferenceImage.Food,
-      "/assets/templates/black-friday-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/black-friday-food-main.png",
+      "/assets/templates/black-friday-food-sale-1.svg",
+      "/assets/templates/black-friday-food-sale-2.svg"
     ],
     midjourneyPrompt:
       "food product sale creative on dark promotional background, appetite-led product presentation, strong offer space, ecommerce sale layout, premium Black Friday energy --ar 4:5 --v 6",
@@ -1442,9 +1458,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Show premium packaged food with crisp label readability, refined lighting, and elevated product-market storytelling.",
     referenceImages: [
-      categoryReferenceImage.Food,
-      "/assets/templates/coffee-main.png",
-      categoryReferenceImage.Food
+      "/assets/templates/premium-packaging-main.png",
+      "/assets/templates/premium-packaging-food-ad-1.svg",
+      "/assets/templates/premium-packaging-food-ad-2.svg"
     ],
     midjourneyPrompt:
       "premium packaged food hero with crisp label readability, refined tabletop setting, elevated food branding, polished appetizing light, premium product-market composition --ar 4:5 --v 6",
@@ -1490,7 +1506,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "seasonal drink campaign prompt",
     shortDescription:
       "Create a limited-time beverage visual with seasonal flavor cues, clean product hierarchy, and promotional flexibility.",
-    referenceImages: assetTriplet("Food"),
+    referenceImages: [
+      "/assets/templates/seasonal-drink-campaign-1.svg",
+      "/assets/templates/seasonal-drink-main.png",
+      "/assets/templates/seasonal-drink-campaign-2.svg"
+    ],
     midjourneyPrompt:
       "seasonal drink hero with limited-time flavor cues, premium beverage styling, clean cup or bottle hierarchy, polished campaign lighting, modern promotional composition --ar 4:5 --v 6",
     runwayPrompt:
@@ -1538,9 +1558,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Build a clean fashion lookbook reel with outfit transitions, editorial movement, and premium studio direction.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
       "/assets/templates/lookbook-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/fashion-lookbook-reel-1.svg",
+      "/assets/templates/fashion-lookbook-reel-2.svg"
     ],
     midjourneyPrompt:
       "fashion lookbook reel with model in curated outfits, clean editorial studio, modern styling, premium apparel campaign, polished visual hierarchy, smooth collection storytelling --ar 9:16 --v 6",
@@ -1587,9 +1607,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Show delicate jewelry with clean spacing, refined sparkle control, and premium editorial minimalism.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
       "/assets/templates/jewelry-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/minimalist-jewelry-campaign-1.svg",
+      "/assets/templates/minimalist-jewelry-campaign-2.svg"
     ],
     midjourneyPrompt:
       "minimalist jewelry campaign with gold or silver pieces, neutral editorial surface, refined sparkle control, soft luxury fashion lighting, elegant accessory hero composition --ar 4:5 --v 6",
@@ -1636,9 +1656,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a bold streetwear drop visual with urban texture, limited-release energy, and clear apparel focus.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
       "/assets/templates/streetwear-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/streetwear-drop-promo-1.svg",
+      "/assets/templates/streetwear-drop-promo-2.svg"
     ],
     midjourneyPrompt:
       "streetwear drop promo with oversized apparel, urban texture, bold contrast, youth-culture fashion styling, limited-release mood, clean product visibility, modern apparel advertising --ar 9:16 --v 6",
@@ -1685,9 +1705,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Present a handbag with material detail, clean pedestal composition, and polished editorial accessory lighting.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
       "/assets/templates/handbag-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/handbag-product-ad-1.svg",
+      "/assets/templates/handbag-product-ad-2.svg"
     ],
     midjourneyPrompt:
       "luxury handbag on neutral pedestal, leather grain detail, clean editorial accessory lighting, premium fashion advertising, elegant shadow control, product-first composition --ar 4:5 --v 6",
@@ -1880,7 +1900,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "luxury dress ad prompt",
     shortDescription:
       "Create a high-fashion dress editorial with elegant silhouette focus, fabric movement, and polished luxury light.",
-    referenceImages: assetTriplet("Fashion"),
+    referenceImages: [
+      "/assets/templates/luxury-dress-editorial-1.svg",
+      "/assets/templates/lookbook-main.png",
+      "/assets/templates/luxury-dress-editorial-2.svg"
+    ],
     midjourneyPrompt:
       "luxury dress editorial, elegant silhouette, premium fabric movement, polished fashion lighting, high-end apparel advertising, clean runway-inspired composition --ar 4:5 --v 6",
     runwayPrompt:
@@ -2023,7 +2047,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "TikTok outfit transition prompt",
     shortDescription:
       "Build a short-form outfit transition with scroll-stopping pace, styling clarity, and creator-native fashion energy.",
-    referenceImages: assetTriplet("Fashion"),
+    referenceImages: [
+      "/assets/templates/tiktok-outfit-transition-1.svg",
+      "/assets/templates/tiktok-outfit-main.png",
+      "/assets/templates/tiktok-outfit-transition-2.svg"
+    ],
     midjourneyPrompt:
       "TikTok outfit transition ad, vertical fashion styling, clean before-after outfit switch, creator-native energy, strong apparel visibility, social-first composition --ar 9:16 --v 6",
     runwayPrompt:
@@ -2069,9 +2097,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a fashion ecommerce hero with clear apparel hierarchy, polished styling, and clean landing-page flexibility.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
-      "/assets/templates/fashion-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/ecommerce-fashion-main.png",
+      "/assets/templates/ecommerce-fashion-hero-1.svg",
+      "/assets/templates/ecommerce-fashion-hero-2.svg"
     ],
     midjourneyPrompt:
       "fashion ecommerce hero with apparel-first composition, polished styling, clean landing-page space, premium product hierarchy, modern retail visual design --ar 16:9 --v 6",
@@ -2117,7 +2145,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "seasonal collection launch prompt",
     shortDescription:
       "Show a new fashion collection with coordinated styling, campaign polish, and a clear launch-story structure.",
-    referenceImages: assetTriplet("Fashion"),
+    referenceImages: [
+      "/assets/templates/seasonal-collection-launch-1.svg",
+      "/assets/templates/seasonal-fashion-main.png",
+      "/assets/templates/seasonal-collection-launch-2.svg"
+    ],
     midjourneyPrompt:
       "seasonal fashion collection launch, coordinated apparel styling, premium campaign composition, collection-first hierarchy, refined editorial lighting, modern fashion brand storytelling --ar 4:5 --v 6",
     runwayPrompt:
@@ -2163,9 +2195,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Build a fashion retargeting frame with clear apparel focus, premium sales polish, and space for direct-response messaging.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
-      "/assets/templates/fashion-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/retargeting-fashion-main.png",
+      "/assets/templates/retargeting-fashion-ad-1.svg",
+      "/assets/templates/retargeting-fashion-ad-2.svg"
     ],
     midjourneyPrompt:
       "fashion retargeting ad with apparel-first hierarchy, clean promotional space, polished ecommerce styling, premium direct-response retail composition --ar 4:5 --v 6",
@@ -2212,9 +2244,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Showcase a fashion sale frame with strong offer-space hierarchy, apparel-first presentation, and premium promotional contrast.",
     referenceImages: [
-      categoryReferenceImage.Fashion,
-      "/assets/templates/black-friday-main.png",
-      categoryReferenceImage.Fashion
+      "/assets/templates/black-friday-fashion-main.png",
+      "/assets/templates/black-friday-fashion-sale-1.svg",
+      "/assets/templates/black-friday-fashion-sale-2.svg"
     ],
     midjourneyPrompt:
       "fashion sale creative with apparel-first hierarchy, dark premium promotional background, strong offer space, Black Friday retail energy, polished fashion advertising composition --ar 4:5 --v 6",
@@ -2263,9 +2295,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a suspense-led launch teaser with partial reveal logic, clean silhouette control, and premium campaign anticipation.",
     referenceImages: [
-      categoryReferenceImage.General,
       "/assets/templates/launch-teaser-main.png",
-      categoryReferenceImage.General
+      "/assets/templates/product-launch-teaser-1.svg",
+      "/assets/templates/product-launch-teaser-2.svg"
     ],
     midjourneyPrompt:
       "product launch teaser with partial reveal, silhouette under light or material, premium campaign suspense, clean modern composition, launch anticipation, polished ad framing --ar 16:9 --v 6",
@@ -2312,9 +2344,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Build a clean ecommerce hero with readable packaging, conversion-ready layout space, and polished lighting.",
     referenceImages: [
-      categoryReferenceImage.General,
       "/assets/templates/ecommerce-hero-main.png",
-      categoryReferenceImage.General
+      "/assets/templates/ecommerce-hero-shot-1.svg",
+      "/assets/templates/ecommerce-hero-shot-2.svg"
     ],
     midjourneyPrompt:
       "ecommerce hero shot with centered product packaging, clean gradient background, clear label readability, polished studio light, conversion-ready landing page composition --ar 16:9 --v 6",
@@ -2361,9 +2393,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a creator-style ad structure with hook, demo, proof, and CTA sequencing for conversion-focused campaigns.",
     referenceImages: [
-      categoryReferenceImage.General,
-      "/assets/templates/ugc-main.png",
-      categoryReferenceImage.General
+      "/assets/templates/ugc-general-main.png",
+      "/assets/templates/ugc-ad-script-1.svg",
+      "/assets/templates/ugc-ad-script-2.svg"
     ],
     midjourneyPrompt:
       "UGC ad visual with creator-style framing, product demo setup, authentic home environment, natural light, social ad structure, conversion-focused composition --ar 9:16 --v 6",
@@ -2410,9 +2442,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Build a product-first Black Friday frame with strong sale hierarchy, dark contrast, and premium direct-response polish.",
     referenceImages: [
-      categoryReferenceImage.General,
       "/assets/templates/black-friday-main.png",
-      categoryReferenceImage.General
+      "/assets/templates/black-friday-ad-1.svg",
+      "/assets/templates/black-friday-ad-2.svg"
     ],
     midjourneyPrompt:
       "Black Friday ad creative with centered product, dark premium promotional background, bold offer space, conversion-ready ecommerce layout, polished sale lighting --ar 4:5 --v 6",
@@ -2459,9 +2491,9 @@ const templateSeeds: TemplateSeed[] = [
     shortDescription:
       "Create a product-first seasonal sale frame with tasteful accents, clean offer space, and flexible campaign styling.",
     referenceImages: [
-      categoryReferenceImage.General,
       "/assets/templates/seasonal-sale-main.png",
-      categoryReferenceImage.General
+      "/assets/templates/seasonal-sale-campaign-1.svg",
+      "/assets/templates/seasonal-sale-campaign-2.svg"
     ],
     midjourneyPrompt:
       "seasonal sale campaign with product-first composition, tasteful seasonal accents, polished ecommerce lighting, clean offer space, premium promotional design --ar 4:5 --v 6",
@@ -2654,7 +2686,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "Google Display ad creative prompt",
     shortDescription:
       "Create a display-ad-ready visual with simple product hierarchy, readable message zones, and broad campaign flexibility.",
-    referenceImages: assetTriplet("General"),
+    referenceImages: [
+      "/assets/templates/google-display-ad-creative-1.svg",
+      "/assets/templates/google-display-main.png",
+      "/assets/templates/google-display-ad-creative-2.svg"
+    ],
     midjourneyPrompt:
       "Google Display ad creative, simple product hierarchy, clear message zones, polished campaign composition, broad ecommerce and lead-gen flexibility, clean ad-ready design --ar 16:9 --v 6",
     runwayPrompt:
@@ -2748,7 +2784,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "YouTube Shorts ad prompt",
     shortDescription:
       "Create a short-form ad with immediate hook potential, clear product hierarchy, and platform-native pacing for Shorts.",
-    referenceImages: assetTriplet("General"),
+    referenceImages: [
+      "/assets/templates/youtube-shorts-ad-1.svg",
+      "/assets/templates/youtube-shorts-main.png",
+      "/assets/templates/youtube-shorts-ad-2.svg"
+    ],
     midjourneyPrompt:
       "YouTube Shorts ad visual with fast hook energy, clear product hierarchy, vertical storytelling, polished social-video design, modern ad-ready composition --ar 9:16 --v 6",
     runwayPrompt:
@@ -2842,7 +2882,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "testimonial ad prompt",
     shortDescription:
       "Create a proof-led ad structure with credibility, quote space, and a clean conversion-oriented product layout.",
-    referenceImages: assetTriplet("General"),
+    referenceImages: [
+      "/assets/templates/testimonial-ad-1.svg",
+      "/assets/templates/testimonial-main.png",
+      "/assets/templates/testimonial-ad-2.svg"
+    ],
     midjourneyPrompt:
       "testimonial ad creative with product-first proof layout, quote-ready message space, polished social proof composition, clean conversion design, premium but credible marketing visual --ar 4:5 --v 6",
     runwayPrompt:
@@ -2887,7 +2931,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "comparison ad prompt",
     shortDescription:
       "Build a structured comparison visual with clear side-by-side logic, product hierarchy, and persuasive simplicity.",
-    referenceImages: assetTriplet("General"),
+    referenceImages: [
+      "/assets/templates/comparison-ad-1.svg",
+      "/assets/templates/comparison-main.png",
+      "/assets/templates/comparison-ad-2.svg"
+    ],
     midjourneyPrompt:
       "comparison ad creative with clean side-by-side layout, strong product hierarchy, persuasive clarity, premium campaign composition, structured difference-driven visual storytelling --ar 4:5 --v 6",
     runwayPrompt:
@@ -2932,7 +2980,11 @@ const templateSeeds: TemplateSeed[] = [
     searchIntent: "retargeting offer ad prompt",
     shortDescription:
       "Create a conversion-ready retargeting frame with clear product focus, direct offer hierarchy, and polished sales intent.",
-    referenceImages: assetTriplet("General"),
+    referenceImages: [
+      "/assets/templates/retargeting-offer-ad-1.svg",
+      "/assets/templates/retargeting-main.png",
+      "/assets/templates/retargeting-offer-ad-2.svg"
+    ],
     midjourneyPrompt:
       "retargeting offer ad with product-first hierarchy, direct offer space, polished ecommerce design, premium conversion-focused layout, clear urgency and CTA structure --ar 4:5 --v 6",
     runwayPrompt:

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import type { PromptTemplate } from "@/data/templates";
 import { categoryToSlug, getPrimaryReferenceImage } from "@/lib/templates";
 
@@ -14,10 +15,13 @@ export function TemplateCard({ template }: TemplateCardProps) {
     <article className="group rounded-[1.75rem] border border-slate-200 bg-white p-4 shadow-sm transition hover:-translate-y-1 hover:shadow-xl">
       <Link href={`/templates/${template.slug}`} className="block">
         <div className="relative aspect-[4/3] overflow-hidden rounded-[1.4rem] bg-slate-100">
-          <img
+          <Image
             src={primaryImage}
             alt={`${template.title} main reference image`}
-            className="h-full w-full object-cover transition duration-500 group-hover:scale-105"
+            fill
+            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            className="object-cover transition duration-500 group-hover:scale-105"
+            loading="lazy"
           />
         </div>
         <div className="mt-4 flex items-center justify-between gap-3">

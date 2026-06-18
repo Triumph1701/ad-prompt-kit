@@ -81,7 +81,7 @@ export function TemplateFilters({ templates }: TemplateFiltersProps) {
   return (
     <div>
       <div className="rounded-3xl border border-slate-200 bg-white p-5 shadow-sm sm:p-6">
-        <div className="grid gap-4 lg:grid-cols-[minmax(260px,1.45fr)_170px_220px_170px] xl:grid-cols-[minmax(320px,1.55fr)_170px_220px_170px_190px_190px]">
+        <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
           <label className="block">
             <span className="text-sm font-semibold text-slate-700">Keyword search</span>
             <input

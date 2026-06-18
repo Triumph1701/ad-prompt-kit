@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { CopyButton } from "@/components/CopyButton";
 import { TemplateCard } from "@/components/TemplateCard";
@@ -164,11 +165,14 @@ export default async function TemplateDetailPage({ params }: TemplatePageProps) 
           <div className="space-y-4 rounded-[2rem] border border-slate-200 bg-white p-4 shadow-xl sm:p-5">
             <div className="grid gap-4">
               {template.referenceImages.slice(0, 3).map((src, index) => (
-                <div key={src} className="overflow-hidden rounded-3xl">
-                  <img
+                <div key={src} className="relative overflow-hidden rounded-3xl">
+                  <Image
                     src={src}
                     alt={`${template.title} ${index === template.primaryReferenceImageIndex ? "main reference image" : `supporting reference image ${index + 1}`}`}
+                    width={1200}
+                    height={index === 0 ? 900 : index === 1 ? 750 : 675}
                     className={`w-full object-cover ${index === 0 ? "aspect-[4/3]" : index === 1 ? "aspect-[16/10] ring-1 ring-indigo-100 shadow-lg shadow-indigo-100/40" : "aspect-[16/9]"}`}
+                    loading={index === 0 ? "eager" : "lazy"}
                   />
                 </div>
               ))}

@@ -58,6 +58,11 @@ export function isCategory(value: string): value is TemplateCategory {
 }
 
 export function getPrimaryReferenceImage(template: PromptTemplate) {
+  // Prefer PNG images over SVG placeholders
+  const pngImage = template.referenceImages.find(img => img.endsWith('.png'));
+  if (pngImage) {
+    return pngImage;
+  }
   return template.referenceImages[template.primaryReferenceImageIndex];
 }
 
