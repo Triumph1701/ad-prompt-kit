@@ -3,6 +3,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 import { CopyButton } from "@/components/CopyButton";
+import GiscusComments from "@/components/GiscusComments";
 import { TemplateCard } from "@/components/TemplateCard";
 import { getPrimaryReferenceImage, getRelatedTemplates, getTemplateBySlug, categoryToSlug } from "@/lib/templates";
 import { templates } from "@/data/templates";
@@ -246,6 +247,8 @@ export default async function TemplateDetailPage({ params }: TemplatePageProps) 
           ))}
         </div>
       </section>
+
+      <GiscusComments />
     </main>
   );
 }
